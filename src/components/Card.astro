@@ -6,9 +6,17 @@ const {header} = Astro.props;
 
 ---
 
-<article>
+<article class="card">
     <h2>{header}</h2>
+    <p>Kortare lorem ipsum</p>
     <slot />
 </article>
 
-<style></style>
+<style>
+    p{
+        color: royalblue;
+    }
+    .card{
+        background-color: aqua;
+    }
+</style>
