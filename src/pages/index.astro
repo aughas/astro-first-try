@@ -3,6 +3,7 @@
 import "../styles/style.css";
 import Card from "../components/Card.astro";
 import Navigation from "../components/Navigation.astro";
+import Button from "../components/Button.astro";
 
 ---
 
@@ -17,17 +18,18 @@ import Navigation from "../components/Navigation.astro";
 	<body>
 		<Navigation />
 		<h1>Astro</h1>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, similique. Laudantium, minima sint? Magni blanditiis totam delectus, quam obcaecati recusandae. Ipsam accusamus cupiditate harum adipisci temporibus quisquam aperiam corporis odit!</p>
 		<main>
-
-			<Card header="Hello world">
+			<Button variant ="primary" size ="small">TEXT</Button>
+			<Button variant ="secondary" size ="medium">TEXT</Button>
+			<Button variant ="secondary" size ="large">TEXT</Button>
+			<!-- <Card header="Hello world">
 				<img src="/img1.png" alt="placeholder"/>
 				<button>klicka här</button>
 			</Card>
 			<Card header="Hello world">
 				<button>klicka här</button>
 				<img src="/img2.png" alt="placeholder2"/>
-			</Card>
+			</Card> -->
 			
 			
 			
